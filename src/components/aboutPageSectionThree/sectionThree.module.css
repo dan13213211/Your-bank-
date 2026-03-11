@@ -1,0 +1,64 @@
+.sectionThree {
+  padding-top: 150px;
+}
+
+.sectionThreeLogo {
+  color: #CAFF33;
+  font-size: 48px;
+  font-weight: 350;
+}
+
+.sectionThreeText {
+  color: #B3B3B3;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sectionThreeboxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 30px;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.sectionThreeBox {
+  min-width: 790px;
+  padding: 30px 30px 57px 30px;
+  background-color: #1C1C1C;
+  border-radius: 10px;
+}
+
+.sectionThreeBoxLogo {
+  color: white;
+  font-weight: 350;
+  font-size: 24px;
+}
+
+.sectionThreeBoxBottom {
+  padding: 51px 30px 0 30px;
+}
+
+.sectionThreeBoxLocation {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.sectionThreeBoxInfo {
+  color: #B3B3B3;
+  font-weight: 300;
+  background-color: #1A1A1A;
+  padding: 8px 16px 8px 16px;
+  border-radius: 68px;
+  border: 1px solid rgba(179, 179, 179, 0.1);
+}
+
+.sectionThreeBoxText {
+  padding-top: 30px;
+  font-size: 17px;
+  color: #B3B3B3;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=sectionThree.module.css.map */

@@ -1,0 +1,104 @@
+.sectionPartTwo {
+  padding-top: 155px;
+}
+
+.sectionLogoName {
+  font-size: 48px;
+  color: #CAFF33;
+  font-weight: 400;
+}
+
+.sectionColorText {
+  color: white;
+}
+
+.sectionPartTwoContainer {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionPartTwoTextLogo {
+  color: rgba(179, 179, 179, 0.8);
+  font-weight: 300;
+  max-width: 940px;
+}
+
+.sectionPartTwoButtonContainer {
+  background-color: #262626;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 82px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  padding: 5px;
+}
+
+.sectionPartTwoButtonContainer::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  background-color: #CAFF33;
+  border-radius: 82px;
+  transition: transform 0.3s ease;
+  pointer-events: none;
+  left: 5px;
+  top: 5px;
+}
+
+.sectionPartTwoButtonContainer[data-active=forIndividuals]::before {
+  transform: translateX(0);
+}
+
+.sectionPartTwoButtonContainer[data-active=forBusinesses]::before {
+  transform: translateX(185px);
+}
+
+.sectionPartTwoButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 180px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  transition: color 0.3s ease;
+  border-radius: 82px;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+.sectionPartTwoButton:hover {
+  background-color: rgba(202, 255, 51, 0.1);
+}
+.sectionPartTwoButton.active {
+  color: black;
+  background-color: transparent;
+}
+
+.individuals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSide {
+  margin-right: 0;
+}
+
+.rightSide {
+  margin-left: 0;
+}
+
+.active {
+  background-color: #CAFF33;
+  color: black;
+}
+
+/*# sourceMappingURL=SectionPartTwo.module.css.map */

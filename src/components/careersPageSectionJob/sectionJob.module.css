@@ -1,0 +1,109 @@
+.sectionJobContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  row-gap: 14px;
+}
+
+.sectionJobLogo {
+  font-size: 48px;
+  color: #CAFF33;
+}
+
+.sectionJobLogoText {
+  font-size: 18px;
+  color: #B3B3B3;
+  padding-right: 400px;
+}
+
+.sectionJobCardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  gap: 30px;
+}
+
+.sectionJobCardBox {
+  min-width: 780px;
+  background-color: #1C1C1C;
+  border-radius: 16px;
+  padding: 50px;
+}
+
+.sectionJobCardLogo {
+  font-size: 30px;
+  color: white;
+}
+
+.sectionJobCardDescription {
+  display: flex;
+  color: #B3B3B3;
+  column-gap: 10px;
+  margin-top: 14px;
+}
+
+.sectionJobCardLocation {
+  background-color: #1A1A1A;
+  padding: 8px 16px;
+  border-radius: 68px;
+  border: 1px solid rgba(179, 179, 179, 0.1);
+}
+
+.sectionJobCardAbout {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-top: 50px;
+}
+
+.sectionJobCardAboutLogo {
+  color: white;
+  font-size: 24px;
+}
+
+.sectionJobCardAboutText {
+  color: #B3B3B3;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sectionJobCardRequirementsContainer {
+  padding-top: 40px;
+}
+
+.sectionJobCardRequirementsLogo {
+  color: white;
+  font-size: 24px;
+}
+
+.sectionJobCardRequirementsBox {
+  color: #B3B3B3;
+}
+
+.sectionJobCardRequirementsBoxText {
+  display: flex;
+  column-gap: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.sectionButton {
+  margin-top: 50px;
+  display: flex;
+  background-color: #CAFF33;
+  color: black;
+  font-size: 18px;
+  transition: all 0.2s ease 0.3ms;
+  border: 1px solid transparent;
+  padding: 16px 30px;
+  border-radius: 82px;
+  text-decoration: none;
+}
+.sectionButton:hover {
+  background-color: rgba(202, 255, 51, 0.8);
+  color: #1C1C1C;
+  border-color: #CAFF33;
+}
+
+/*# sourceMappingURL=sectionJob.module.css.map */

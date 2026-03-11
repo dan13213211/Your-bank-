@@ -1,0 +1,156 @@
+.modal {
+  position: absolute;
+  z-index: 10000;
+  top: 9%;
+  left: 17%;
+  background-image: url('src/assets/images/login.png');
+  min-width: 1326px;
+  min-height: 890px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.errorMessage{
+  top: 270px;
+  position: absolute;
+  color: red;
+  font-size: 20px;
+}
+.modalOverlay {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.3s ease;
+}
+
+.modalImgLogo {
+  margin-left: 1223px;
+  margin-top: 25px;
+  background-color: transparent;
+  border: none;
+
+}
+
+.buttonIsVisible{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin-left: 955px;
+  margin-bottom: 240px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+
+}
+
+.modalLogo {
+  color: #CAFF33;
+  font-size: 47px;
+  font-weight: 400;
+}
+
+.modalLogoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.modalText {
+  color: #BFBFBF;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.modalForm {
+  display: flex;
+  margin-top: 80px;
+  gap: 40px;
+}
+
+.modalInput {
+  display: flex;
+  justify-content: start;
+  background-color: #1A1A1A;
+  border: 1px solid rgba(89, 89, 90, 0.2);
+  border-radius: 88px;
+  min-width: 498px;
+  height: 75px;
+  color: white;
+  padding: 24px;
+}
+
+.modalForgot {
+  padding-top: 40px;
+  color: white;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+}
+
+.modalButtonBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 24px;
+
+}
+
+.modalLoginButton {
+  width: 518px;
+  height: 63px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #333333;
+  border: none;
+  border-radius: 63px;
+  transition: all 0.2s ease 0.3ms;
+}
+
+.active {
+  background-color: #CAFF33;
+  color: black
+}
+
+.modalContinueBox {
+  padding-top: 24px;
+  color: #B3B3B3;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &::before,
+  &::after {
+    content: '';
+    flex: 1;
+    width: 165px;
+    height: 1px;
+    background-color: #B3B3B3;
+  }
+}
+
+.modalImgBox {
+  display: flex;
+  margin-top: 42px;
+  gap: 50px;
+}

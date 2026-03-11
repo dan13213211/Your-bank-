@@ -1,0 +1,47 @@
+.aboutSectionOneSection {
+  display: flex;
+  background-color: #1C1C1C;
+  border-radius: 20px;
+  margin-top: 53px;
+  padding: 50px;
+  min-height: 815px;
+}
+
+.aboutSectionContainer {
+  position: relative;
+  background-color: #1A1A1A;
+  border-radius: 10px 0 82px 10px;
+  padding: 80px;
+  max-height: 580px;
+  max-width: 800px;
+  z-index: 9000;
+}
+
+.image {
+  position: absolute;
+  z-index: 1000;
+  right: 150px;
+}
+
+.aboutSectionLogo {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.aboutSectionLogoBottom {
+  color: white;
+  font-size: 57px;
+}
+
+.logoBottomColor {
+  color: #CAFF33;
+}
+
+.aboutSectionText {
+  color: #B3B3B3;
+  font-size: 17px;
+  padding-top: 23px;
+}
+
+/*# sourceMappingURL=sectionAboutOne.module.css.map */

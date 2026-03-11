@@ -1,0 +1,44 @@
+.sectionValuesContainer {
+  padding-top: 150px;
+  color: rgba(179, 179, 179, 1);
+  font-weight: 300
+}
+
+.sectionValuesLogoContainer{
+  display: flex;
+  flex-direction: column;
+  max-width: 1150px;
+  row-gap: 10px;
+}
+.sectionValuesLogo{
+  font-size: 47px;
+  color: white;
+}
+.sectionValuesColor{
+  color: #CAFF33
+}
+
+.sectionValuesBoxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 80px;
+  padding-top: 80px;
+}
+.sectionValuesBox{
+  border-left: 1px solid #CAFF33;
+  padding-left: 30px;
+}
+
+.sectionValuesBoxLogo{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 57px;
+  color: #4C4C4D;
+  font-weight: 500;
+}
+.sectionValuesBoxText{
+  padding-top: 30px;
+
+}

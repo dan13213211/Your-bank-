@@ -1,0 +1,41 @@
+.sectionLastContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  height: 288px;
+  width: 100%;
+  background: #1C1C1C;
+  border-radius: 20px;
+}
+
+.sectionLastBoxText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 80px;
+  max-width: 1200px;
+}
+
+.sectionLastBoxLogo {
+  font-size: 40px;
+  color: white;
+}
+
+.sectionLastWords {
+  color: #CAFF33;
+}
+
+.sectionLastText {
+  color: rgba(179, 179, 179, 0.8);
+  font-size: 18px;
+}
+
+.sectionLastBoxButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 80px;
+}
+
+/*# sourceMappingURL=sectionLastPart.module.css.map */

@@ -1,0 +1,62 @@
+.sectionTwo{
+  padding-top: 150px;
+}
+.logoContainer{
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  padding-right: 450px;
+}
+
+.sectionLogo{
+  color: white;
+  font-size: 47px;
+  font-weight: 350;
+}
+.color{
+  color: #CAFF33
+}
+
+.sectionText{
+  color: #B3B3B3;
+  font-size: 17px;
+  font-weight: 350;
+}
+
+.boxes{
+  margin-top: 115px;
+  background-color: #1C1C1C;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  justify-items: center;
+  gap: 30px;
+  padding: 82px 93px 82px 93px;
+}
+
+.box{
+  background-color: #1A1A1A;
+  border:1px solid rgba(202, 255, 51, 0.1);
+  height: 330px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.boxLogoContainer{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.boxLogo{
+  color: white;
+  font-size: 24px;
+}
+
+.boxText{
+  color: #B3B3B3;
+  font-size: 17px;
+  padding-top: 24px;
+  font-weight: 350;
+}

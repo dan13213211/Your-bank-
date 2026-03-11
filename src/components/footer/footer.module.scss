@@ -1,0 +1,92 @@
+.footerContainer {
+  height: 400px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  row-gap: 35px;
+  background-color: #1C1C1C;
+  margin-left: calc(-1 * clamp(16px, 5vw, 162px));
+  margin-right: calc(-1 * clamp(16px, 5vw, 162px));
+}
+.footerLogoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.footerImgBottom{
+  display: flex;
+  column-gap: 14px;
+}
+
+.footerImgLogo{
+  width: 33px;
+  height: 33px;
+}
+
+.footerLogoText{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footerAnchorContainer{
+  display: flex;
+  column-gap: 28px;
+}
+
+.footerAnchorText{
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.footerInfoContainer{
+  display: flex;
+column-gap: 20px;
+}
+
+.footerInfoBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.footerBottomContainer{
+  display: flex;
+  margin-top: 20px;
+  height: 84px;
+  min-width: 1600px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A1A1A;
+  border-radius: 100px;
+}
+
+.footerImgBottom{
+  display: flex;
+  margin-left: 16px;
+}
+
+.footerBottomText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(179, 179, 179, 1);
+  font-weight: 200;
+}
+
+.left{
+  padding-left: 80px;
+}
+.last{
+ padding-right: 30px;
+ }

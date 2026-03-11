@@ -1,0 +1,14 @@
+.sectionButton{
+
+  background-color: #CAFF33;
+  color: #1C1C1C;
+  font-size: 18px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  padding: 14px 24px;
+  border-radius: 82px;
+  text-decoration: none;
+  &:hover{
+    background-color: rgb(202, 255, 51, 0.8);
+  }
+}

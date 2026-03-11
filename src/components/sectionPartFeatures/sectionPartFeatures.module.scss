@@ -1,0 +1,131 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.sectionFeaturesSettings{
+  color: white;
+  font-size: 18px;
+  margin-top: 150px;
+}
+
+
+.sectionFeaturesContainerLogo{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+
+}
+
+.sectionFeaturesLogo{
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.sectionFeaturesLogoColor{
+  color: #CAFF33
+}
+
+.sectionFeaturesText{
+  color: rgba(179, 179, 179, 0.8);
+  font-weight: 300;
+  max-width: 940px;
+}
+
+.sectionFeaturesInfoContainer{
+  display: flex;
+  margin-top: 80px;
+}
+
+.sectionFeaturesButtonsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  width: 308px;
+  height: 307px;
+  background-color: #1C1C1C;
+  border-radius: 12px;
+
+}
+
+.sectionFeaturesButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  width: 208px;
+  height: 63px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease ;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover{
+    background-color: #1A1A1A;
+    color: #CAFF33
+  }
+}
+.sectionFeaturesInfoBox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-left: 120px;
+}
+
+.sectionFeaturesBoxes{
+  width: 614px;
+  height: 272px;
+  background-color: #1C1C1C;
+  border-radius: 12px;
+  border: 1px solid rgba(38, 38, 38, 1);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+  &:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  &:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+}
+
+.sectionFeaturesBoxContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionFeaturesLogoBox{
+  font-size: 22px;
+  font-weight: 400;
+}
+.sectionFeaturesBoxText{
+  padding-top: 40px;
+  font-size: 17px;
+  color: rgba(179, 179, 179, 0.8);
+}
+
+.active{
+  background-color: #1A1A1A;
+  color: #CAFF33
+}

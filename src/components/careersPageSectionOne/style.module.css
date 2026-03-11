@@ -1,0 +1,51 @@
+.sectionOne {
+  display: flex;
+  background-color: #1C1C1C;
+  margin-top: 53px;
+  width: 100%;
+  min-height: 815px;
+  border-radius: 20px;
+  padding: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sectionOneLogoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 23px;
+  background-color: #1A1A1A;
+  max-height: 495px;
+  max-width: 791px;
+  border-radius: 0 0 100px 0;
+  padding: 80px;
+  z-index: 10;
+}
+
+.sectionOneLogo {
+  color: white;
+  font-size: 56px;
+}
+
+.sectionOneLogoColor {
+  color: #CAFF33;
+}
+
+.sectionOneText {
+  color: rgba(179, 179, 179, 0.8);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sectionOneImg {
+  position: absolute;
+  z-index: 1;
+  width: auto;
+  max-width: 60%;
+  right: 50px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.module.css.map */

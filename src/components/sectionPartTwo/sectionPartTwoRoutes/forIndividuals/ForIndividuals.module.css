@@ -1,0 +1,72 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.sectionPartTwoContainerBottom {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionPartTwoBox {
+  display: flex;
+  max-width: 420px;
+  min-height: 379px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease-out forwards;
+}
+.sectionPartTwoBox:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.sectionPartTwoBox:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.sectionPartTwoBox:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.sectionPartTwoLogoBottom {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+
+.sectionPartTwoTextBottom {
+  padding-top: 10px;
+  color: rgba(179, 179, 179, 0.7);
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.rightBorder {
+  position: relative;
+}
+
+.rightBorder::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  height: 255px;
+  right: -120px;
+  bottom: 20%;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+/*# sourceMappingURL=ForIndividuals.module.css.map */
