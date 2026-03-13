@@ -16,7 +16,6 @@ const HeaderMobile = () => {
   const firstName = useSelector((state) => state.user.firstName);
   const lastName = useSelector((state) => state.user.lastName);
   const isUserLoggedIn = firstName !== '' && lastName !== '';
-  console.log(window.innerWidth);
   return (
     <>
       <header className={styles.header}>

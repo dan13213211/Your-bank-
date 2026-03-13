@@ -4,7 +4,7 @@ import user from '../../assets/images/user.svg'
 import {Link} from 'react-router-dom';
 import Login from "../modals/loginModal/Login.tsx";
 import UserInfo from '../modals/userInfo/userInfo.tsx'
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import SignUpModal from "../modals/signUpModal/SignUp.tsx";
 import {navLinks} from '../../constants/navigation'
 import {useSelector} from 'react-redux';
@@ -20,18 +20,6 @@ const Header = () => {
   const firstName = useSelector((state) => state.user.firstName);
   const lastName = useSelector((state) => state.user.lastName);
   const isUserLoggedIn = firstName !== '' && lastName !== '';
-
-  // Определяем мобильную версию при загрузке и при изменении размера окна
-  useEffect(() => {
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 1920);
-      console.log('Window width:', window.innerWidth);
-    };
-
-    checkMobile(); // Проверяем при монтировании
-
-  }, []);
-
   return (
     <>
       {isMobile ? (
