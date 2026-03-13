@@ -129,3 +129,11 @@
   background-color: #1A1A1A;
   color: #CAFF33
 }
+@media(min-width: 1921px){
+  .sectionFeaturesInfoBox{
+    margin-left: 200px;
+  }
+  .sectionFeaturesBoxes{
+    width: 850px;
+  }
+}

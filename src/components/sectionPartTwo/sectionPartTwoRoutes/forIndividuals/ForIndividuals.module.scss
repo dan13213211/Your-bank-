@@ -69,3 +69,20 @@
 .fadeIn {
   animation: fadeIn 0.5s ease-out forwards;
 }
+@media(min-width: 1921px){
+  .sectionPartTwoContainerBottom {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .rightBorder::after {
+    left: 650px;
+    height: 300px;
+    top: 45px
+  }
+  .sectionPartTwoLogoBottom {
+    font-size: 40px
+  }
+  .sectionPartTwoTextBottom {
+    font-size: 18px
+  }
+}

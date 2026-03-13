@@ -1,12 +1,14 @@
-.section{
+.section {
   display: flex;
-padding-top: 90px;
+  padding-top: 90px;
 
 }
-.sectionLeftPart{
+
+.sectionLeftPart {
   max-width: 1100px;
 }
-.sectionAnnotation{
+
+.sectionAnnotation {
   max-width: 330px;
   color: white;
   display: flex;
@@ -19,26 +21,46 @@ padding-top: 90px;
   gap: 8.25px;
 
 }
-.sectionLogo{
+
+.sectionLogo {
   color: white;
 }
-.sectionHeader{
+
+.sectionHeader {
   padding-top: 16px;
   max-width: 750px;
   font-weight: 400;
   font-size: 48px;
   line-height: 150%;
 }
-.sectionHeaderLastPart{
+
+.sectionHeaderLastPart {
   color: #CAFF33
 }
-.sectionText{
+
+.sectionText {
   max-width: 800px;
   font-size: 18px;
- color: rgb(228, 228, 231, 0.8);
+  color: rgb(228, 228, 231, 0.8);
   font-weight: 300;
   padding-top: 14px;
 }
-.button{
+
+.button {
   margin-top: 40px;
+}
+
+@media(min-width: 1921px) {
+  .sectionLeftPart {
+    padding-left: 50px;
+  }
+  .sectionHeader {
+
+    font-size: 52px;
+
+  }
+  .sectionText {
+    max-width: 950px;
+    font-size: 20px;
+  }
 }

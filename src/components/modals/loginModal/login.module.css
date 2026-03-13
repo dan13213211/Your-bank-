@@ -152,4 +152,11 @@
   gap: 50px;
 }
 
+@media (min-width: 1921px) {
+  .modal {
+    top: 13%;
+    left: 24%;
+  }
+}
+
 /*# sourceMappingURL=login.module.css.map */

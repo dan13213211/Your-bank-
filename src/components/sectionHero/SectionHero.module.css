@@ -48,4 +48,17 @@
   margin-top: 40px;
 }
 
+@media (min-width: 1921px) {
+  .sectionLeftPart {
+    padding-left: 50px;
+  }
+  .sectionHeader {
+    font-size: 52px;
+  }
+  .sectionText {
+    max-width: 950px;
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=SectionHero.module.css.map */

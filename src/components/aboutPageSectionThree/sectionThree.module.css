@@ -61,4 +61,11 @@
   font-weight: 300;
 }
 
+@media (min-width: 1921px) {
+  .sectionThreeboxes {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -30px;
+  }
+}
+
 /*# sourceMappingURL=sectionThree.module.css.map */
